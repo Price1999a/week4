@@ -1,3 +1,4 @@
+#pragma warning(disable:4996)
 #include <stdio.h>
 
 main()
@@ -7,9 +8,9 @@ main()
 	i = 0;
 
 	printf("输入有几个硬币： \n");
-	scanf_s("%d", &d2, 10);
+	scanf("%d", &d2);
 	printf("输入假币是第几个： \n");
-	scanf_s("%d", &m, 10);
+	scanf("%d", &m);
 
 	d = d2 - d1 + 1;
 	if (d = 1)
